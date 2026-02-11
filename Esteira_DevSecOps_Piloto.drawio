@@ -1,0 +1,217 @@
+<mxfile host="Electron" modified="2026-02-10T19:24:08.599Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="cpOPfJnqvoWwyvd12L2d" version="24.2.5" type="device" pages="3">
+  <diagram name="Esteira DevSecOps - Piloto" id="d158b7be-84fc-4c43-b">
+    <mxGraphModel dx="1674" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Esteira DevSecOps - POC (código até produção)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="1129" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="&lt;font color=&quot;#1a1a1a&quot;&gt;DEV&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontStyle=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="20" y="80" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="&lt;font color=&quot;#1a1a1a&quot;&gt;SCM&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontStyle=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="180" y="80" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;font color=&quot;#1a1a1a&quot;&gt;CI&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontStyle=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="340" y="80" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;font color=&quot;#1a1a1a&quot;&gt;ARTEFATOS&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontStyle=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="610" y="80" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;font color=&quot;#1a1a1a&quot;&gt;CD&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontStyle=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="810" y="80" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;font color=&quot;#1a1a1a&quot;&gt;PROD&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontStyle=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="80" width="89" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Commit local&lt;br&gt;(IDE)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#e8f0fe;" parent="1" vertex="1">
+          <mxGeometry x="35" y="130" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="&lt;font color=&quot;#1a1a1a&quot;&gt;PR / Code Review&lt;br&gt;+ Checks obrigatórios&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#e8f0fe;" parent="1" vertex="1">
+          <mxGeometry x="195" y="130" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Build + Unit tests&lt;br&gt;+ Coverage&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#e6ffed;" parent="1" vertex="1">
+          <mxGeometry x="355" y="130" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&lt;font color=&quot;#1a1a1a&quot;&gt;SAST&lt;br&gt;(security lint)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#ffeaea;" parent="1" vertex="1">
+          <mxGeometry x="485" y="130" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="&lt;font color=&quot;#1a1a1a&quot;&gt;SCA/Deps&lt;br&gt;+ Licenças&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#ffeaea;" parent="1" vertex="1">
+          <mxGeometry x="595" y="130" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Container Build&lt;br&gt;+ SBOM&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#e6ffed;" parent="1" vertex="1">
+          <mxGeometry x="355" y="225" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Secrets scan&lt;br&gt;+ IaC scan&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#ffeaea;" parent="1" vertex="1">
+          <mxGeometry x="520" y="280" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Image scan&lt;br&gt;+ Policy&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#fff4e5;" parent="1" vertex="1">
+          <mxGeometry x="660" y="360" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Assinatura&lt;br&gt;(Cosign) + Provenance&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#fff4e5;" parent="1" vertex="1">
+          <mxGeometry x="660" y="225" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Registry&lt;br&gt;(ECR/Harbor)&lt;br&gt;+ Imutabilidade&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#f3e8ff;" parent="1" vertex="1">
+          <mxGeometry x="710" y="130" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="&lt;font color=&quot;#1a1a1a&quot;&gt;GitOps Repo&lt;br&gt;(manifests/Helm)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#f3e8ff;" parent="1" vertex="1">
+          <mxGeometry x="820" y="130" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Deploy Staging&lt;br&gt;(Argo CD)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#e6ffed;" parent="1" vertex="1">
+          <mxGeometry x="940" y="130" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Testes integ.&lt;br&gt;+ DAST&lt;br&gt;+ Smoke&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#ffeaea;" parent="1" vertex="1">
+          <mxGeometry x="830" y="310" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Approval Gate&lt;br&gt;(Change/Release)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#f5f5f5;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="130" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Deploy Produção&lt;br&gt;(Blue/Green)&lt;br&gt;+ Verificações&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#e6ffed;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="225" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;" parent="1" source="9" target="10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;" parent="1" source="10" target="11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="" style="endArrow=block;html=1;strokeWidth=1;dashed=1;" parent="1" source="11" target="14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;" parent="1" source="11" target="12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;" parent="1" source="12" target="13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="" style="endArrow=block;html=1;strokeWidth=1;dashed=1;" parent="1" source="13" target="18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;" parent="1" source="14" target="15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;" parent="1" source="15" target="16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;" parent="1" source="16" target="17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;" parent="1" source="17" target="18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;" parent="1" source="18" target="19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="35" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;" parent="1" source="19" target="20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="36" value="" style="endArrow=block;html=1;strokeWidth=1;dashed=1;" parent="1" source="20" target="22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="37" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;" parent="1" source="22" target="23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;" parent="1" source="20" target="21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="" style="endArrow=block;html=1;rounded=0;strokeWidth=1;" parent="1" source="21" target="22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Observabilidade + Vulnerability Mgmt + Incident Response&lt;br&gt;(Métricas, logs, traces, alertas, SLIs/SLOs, backlog de correções)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#eef2ff;" parent="1" vertex="1">
+          <mxGeometry x="20" y="450" width="1129" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="" style="endArrow=block;html=1;strokeWidth=1;" parent="1" source="23" target="40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42" value="" style="endArrow=block;html=1;strokeWidth=1;dashed=1;" parent="1" source="40" target="10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="255" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="43" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Pontos de controle (gates):&lt;br&gt;1) PR checks (qualidade + segurança)&lt;br&gt;2) CI gate (scan + SBOM + assinatura)&lt;br&gt;3) Policy/Admission no cluster&lt;br&gt;4) Release/approval + verificação pós-deploy&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=1;fontSize=11;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="20" y="530" width="1129" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="VSM (simples)" id="5ec67ff0-cee2-41da-9">
+    <mxGraphModel dx="1674" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="VSM (V&lt;span style=&quot;background-color: initial;&quot;&gt;isão mais simples) - Do commit ao deploy&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="1129" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="&lt;font color=&quot;#1a1a1a&quot;&gt;AS-IS&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontStyle=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="20" y="80" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="&lt;font color=&quot;#1a1a1a&quot;&gt;TO-BE (piloto DevSecOps)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=1;fillColor=#f5f5f5;fontStyle=1;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="589" y="80" width="560" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Espera para build manual / ambiente compartilhado&lt;br&gt;Fila + dependência de time&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#fff;" parent="1" vertex="1">
+          <mxGeometry x="20" y="130" width="560" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;font color=&quot;#1a1a1a&quot;&gt;CI on-demand + runners/agents padronizados&lt;br&gt;Infra-as-code para pipeline&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#fff;" parent="1" vertex="1">
+          <mxGeometry x="589" y="130" width="560" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Testes tardios (integração só no fim)&lt;br&gt;Defeitos sobem de fase&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#fff;" parent="1" vertex="1">
+          <mxGeometry x="20" y="230" width="560" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Shift-left: unit/contract tests + ambiente staging automatizado&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#fff;" parent="1" vertex="1">
+          <mxGeometry x="589" y="230" width="560" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Segurança reativa (scan após incidente)&lt;br&gt;Sem evidência/auditoria&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#fff;" parent="1" vertex="1">
+          <mxGeometry x="20" y="330" width="560" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="&lt;font color=&quot;#1a1a1a&quot;&gt;SAST/SCA/IaC/Secrets + SBOM + assinatura + evidências por execução&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#fff;" parent="1" vertex="1">
+          <mxGeometry x="589" y="330" width="560" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Deploy manual / scripts soltos&lt;br&gt;Rollback lento&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#fff;" parent="1" vertex="1">
+          <mxGeometry x="20" y="430" width="560" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&lt;font color=&quot;#1a1a1a&quot;&gt;CD GitOps + deploy progressivo (blue/green/canary) + rollback automático&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#fff;" parent="1" vertex="1">
+          <mxGeometry x="589" y="430" width="560" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Baixa visibilidade (sem SLO)&lt;br&gt;Alertas tardios&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#fff;" parent="1" vertex="1">
+          <mxGeometry x="20" y="530" width="560" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Observabilidade + SLIs/SLOs + feedback para backlog&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#fff;" parent="1" vertex="1">
+          <mxGeometry x="589" y="530" width="560" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Indicadores sugeridos no piloto:&lt;br&gt;Lead time (commit-&amp;gt;prod), Change failure rate, MTTR, % coverage, vuln SLA, policy pass rate, tempo de PR review&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=1;fontSize=11;fillColor=#eef2ff;" parent="1" vertex="1">
+          <mxGeometry x="20" y="650" width="1129" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="KT + Templates" id="66184e0e-68a3-4f23-8">
+    <mxGraphModel dx="1674" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="KT + Templates/Guidelines (proposta)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;strokeColor=none;fillColor=none;fontSize=22;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="20" y="20" width="1129" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="&lt;font color=&quot;#1a1a1a&quot;&gt;KT em 3 sessões (1h cada):&lt;br&gt;1) Pipeline: visão geral, gates e como debugar falhas&lt;br&gt;2) Segurança: SAST/SCA/IaC/Secrets, SBOM, assinatura e políticas&lt;br&gt;3) CD/Operação: GitOps, deploy progressivo, rollback, SLOs e runbooks&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="20" y="80" width="1129" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Templates para padronização:&lt;br&gt;- pipeline.yaml (CI) com etapas parametrizadas (build/test/scan/sbom/sign)&lt;br&gt;- policy-as-code (OPA/Gatekeeper ou ORCA Security) + regras mínimas&lt;br&gt;- chart/manifest base (Helm/Kustomize) com probes, requests/limits, labels e annotations&lt;br&gt;- definição de evidências (artefatos anexados por execução) + naming convention&lt;br&gt;- checklists: PR, release, hotfix, rollback&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="20" y="220" width="1129" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Guidelines (DoD da POC):&lt;br&gt;- PR só mergeia com checks verdes + review&lt;br&gt;- build reproduzível + SBOM obrigatório&lt;br&gt;- imagens assinadas e escaneadas antes de ir para staging&lt;br&gt;- deploy só via GitOps; mudanças manuais no cluster são bloqueadas&lt;br&gt;- métricas mínimas publicadas e alertas definidos&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#2b2b2b;strokeWidth=1;fontSize=11;fillColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="20" y="400" width="1129" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="&lt;font color=&quot;#1a1a1a&quot;&gt;Escopo recomendado do piloto (4 a 6 semanas):&lt;br&gt;Aplicação pequena (1 serviço) + 1 infra IaC + 1 cluster/k8s namespace.&lt;br&gt;Entregas: pipeline CI, CD GitOps, políticas mínimas, evidências e dashboard.&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=1;fontSize=11;fillColor=#eef2ff;" parent="1" vertex="1">
+          <mxGeometry x="20" y="570" width="1129" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
