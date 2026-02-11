@@ -87,7 +87,7 @@ A promoção é declarativa:
 - GitOps controla o “estado desejado” por ambiente,
 - rollback e audit trail ficam mais previsíveis.
 
-Ferramentas compatíveis: :contentReference[oaicite:0]{index=0}, ou equivalente.
+Ferramenta recomendada: ArgoCD - https://argo-cd.readthedocs.io/en/stable/
 
 ---
 
@@ -98,8 +98,6 @@ O piloto assume telemetria mínima:
 - logs (com correlação),
 - traces (se aplicável),
 - alertas orientados a SLI/SLO.
-
-Plataforma alvo: :contentReference[oaicite:1]{index=1} (ou distribuição compatível).
 
 ---
 
